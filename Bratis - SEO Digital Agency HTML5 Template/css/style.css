@@ -50,14 +50,14 @@ font-family: 'Lora', serif;*/
 @import url('jquery-ui.css');
 @import url('custom-animate.css');
 
-/*** 
+/***
 
 ====================================================================
 	Reset
 ====================================================================
 
  ***/
- 
+
 * {
 	margin:0px;
 	padding:0px;
@@ -65,7 +65,7 @@ font-family: 'Lora', serif;*/
 	outline:none;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Global Settings
@@ -74,16 +74,22 @@ font-family: 'Lora', serif;*/
  ***/
 
 body {
+
 	font-size:15px;
 	color:#777777;
 	line-height:1.8em;
 	font-weight:400;
-	background:#ffffff;
+	background: #ffffff;
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position:center top;
+		background:url(../images/resource/file-5.jpg)  no-repeat;
+
+
+
+
 	-webkit-font-smoothing: antialiased;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'poppins', sans-serif;
 }
 
 a{
@@ -102,16 +108,17 @@ a:hover,a:focus,a:visited{
 }
 
 h1,h2,h3,h4,h5,h6 {
-	position:relative;
+	position:center;
 	font-weight:normal;
 	margin:0px;
 	background:none;
 	line-height:1.6em;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Kuiper Belt', sans-serif ;
+	font color: 'ffffff';
 }
 
 input,button,select{
-	
+
 }
 
 textarea{
@@ -120,17 +127,17 @@ textarea{
 
 p,.text{
 	position:relative;
-	line-height:1.8em;	
+	line-height:1.8em;
 }
 
 .strike-through{
-	text-decoration:line-through;	
+	text-decoration:line-through;
 }
 
 .auto-container{
 	position:static;
 	max-width:1200px;
-	padding:0px 15px;
+	padding:0px 10px;
 	margin:0 auto;
 }
 
@@ -218,7 +225,7 @@ p,.text{
 ul,li{
 	list-style:none;
 	padding:0px;
-	margin:0px;	
+	margin:0px;
 }
 
 .theme-btn{
@@ -407,17 +414,17 @@ ul,li{
 }
 
 .theme_color{
-	color:#05e249;	
+	color:#05e249;
 }
 
 img{
 	display:inline-block;
-	max-width:100%;	
+	max-width:100%;
 }
 
 .preloader{ position:fixed; left:0px; top:0px; width:100%; height:100%; z-index:999999; background-color:#ffffff; background-position:center center; background-repeat:no-repeat; background-image:url(../images/icons/preloader.svg);}
 
-/*** 
+/***
 
 ====================================================================
 	Scroll To Top style
@@ -446,7 +453,7 @@ img{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;		
+	transition:all 300ms ease;
 }
 
 .scroll-to-top:hover{
@@ -455,7 +462,7 @@ img{
 	border-color:#ff4c72;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Main Header style
@@ -478,8 +485,10 @@ img{
 }
 
 .main-header.fixed-header{
+	opacity: 0.5;
 	top:0px;
 	background:#ffffff;
+
 	border-bottom:1px solid rgba(0,0,0,0.10);
 }
 
@@ -502,7 +511,7 @@ img{
 	top:100%;
 	right:0px;
 	left:auto;
-	width:170px;	
+	width:170px;
 	border-radius:0px;
 	margin-top:17px;
 	background-color:#222222;
@@ -536,7 +545,7 @@ img{
 }
 
 .main-header .language .dropdown-menu > li:last-child{
-	border-bottom:none;	
+	border-bottom:none;
 }
 
 .main-header .language .dropdown-menu > li > a{
@@ -610,7 +619,7 @@ img{
 	-moz-animation-iteration-count: 1;
 	-op-animation-iteration-count: 1;
 	-webkit-animation-iteration-count: 1;
-	animation-iteration-count: 1;	
+	animation-iteration-count: 1;
 }
 
 .main-header .header-upper{
@@ -663,7 +672,7 @@ img{
 }
 
 .main-menu .navbar-collapse{
-	padding:0px;	
+	padding:0px;
 }
 
 .main-menu .navigation{
@@ -725,7 +734,7 @@ img{
 	margin-top:-10px;
 	font-size:15px;
 	font-weight:normal;
-	display:block;	
+	display:block;
 	transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
 	-webkit-transition:all 300ms ease;
@@ -805,7 +814,7 @@ img{
 
 .main-menu .navigation > li > ul.from-right{
 	left:auto;
-	right:0px;	
+	right:0px;
 }
 
 .main-menu .navigation > li > ul > li{
@@ -815,7 +824,7 @@ img{
 }
 
 .main-menu .navigation > li > ul > li:last-child{
-	border-bottom:none;	
+	border-bottom:none;
 }
 
 .main-menu .navigation > li > ul > li > a{
@@ -899,7 +908,7 @@ img{
 }
 
 .main-menu .navigation > li > ul > li > ul > li:last-child{
-	border-bottom:none;	
+	border-bottom:none;
 }
 
 .main-menu .navigation > li > ul > li  > ul > li > a{
@@ -964,7 +973,7 @@ img{
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
-	-o-transition:all 500ms ease;	
+	-o-transition:all 500ms ease;
 }
 
 .main-menu .navbar-collapse > ul li.dropdown .dropdown-btn{
@@ -1026,7 +1035,7 @@ img{
 	top:44px;
 	right:0px;
 	padding:0px;
-	width:280px;	
+	width:280px;
 	border-radius:0px;
 	border-top:3px solid #05e249;
 }
@@ -1038,12 +1047,12 @@ img{
 }
 
 .main-header .header-lower .search-panel .form-container{
-	padding:25px 20px;	
+	padding:25px 20px;
 }
 
 .main-header .header-lower .search-panel .form-group{
 	position:relative;
-	margin:0px;	
+	margin:0px;
 }
 
 .main-header .header-lower .search-panel input[type="text"],
@@ -1055,7 +1064,7 @@ img{
 	height:40px;
 	color:#000000;
 	line-height:24px;
-	background:#ffffff;	
+	background:#ffffff;
 	border:1px solid #e0e0e0;
 	padding:7px 40px 7px 15px;
 	-webkit-transition:all 300ms ease;
@@ -1067,7 +1076,7 @@ img{
 
 .main-header .header-lower .search-panel input:focus,
 .main-header .header-lower .search-panel select:focus{
-	border-color:#05e249;	
+	border-color:#05e249;
 }
 
 .main-header .header-lower .search-panel .search-btn{
@@ -1106,18 +1115,18 @@ img{
 .main-header .search-box-outer .dropdown-menu{
 	top:62px;
 	padding:0px;
-	width:280px;	
+	width:280px;
 	border-radius:0px;
 	border-top:3px solid #05e249;
 }
 
 .main-header .search-panel .form-container{
-	padding:25px 20px;	
+	padding:25px 20px;
 }
 
 .main-header .search-panel .form-group{
 	position:relative;
-	margin:0px;	
+	margin:0px;
 }
 
 .main-header .search-panel input[type="text"],
@@ -1130,12 +1139,12 @@ img{
 	padding:7px 40px 7px 15px;
 	height:40px;
 	border:1px solid #e0e0e0;
-	background:#ffffff;	
+	background:#ffffff;
 }
 
 .main-header .search-panel input:focus,
 .main-header .search-panel select:focus{
-	border-color:#05e249;	
+	border-color:#05e249;
 }
 
 .main-header .search-panel .search-btn{
@@ -1225,7 +1234,7 @@ img{
 	position:relative;
 	top:2px;
 	text-indent:0px;
-	color:#333333;	
+	color:#333333;
 }
 
 .form-group .ui-button .ui-icon:before{
@@ -1256,7 +1265,7 @@ img{
 }
 
 .ui-menu .ui-menu-item:last-child{
-	border:none;	
+	border:none;
 }
 
 .ui-state-active, .ui-widget-content .ui-state-active{
@@ -1272,10 +1281,11 @@ img{
 	line-height:24px;
 }
 
+
 .ui-menu-item:hover{
 }
 
-/*** 
+/***
 
 ====================================================================
 	Section Title
@@ -1336,7 +1346,7 @@ img{
 	margin-left:-21px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Main Slider style
@@ -1373,7 +1383,7 @@ img{
 }
 
 .main-slider .tp-dottedoverlay{
-	background:rgba(0,0,0,0.40) !important;	
+	background:rgba(0,0,0,0.40) !important;
 }
 
 .main-slider .tparrows.gyges{
@@ -1434,10 +1444,10 @@ img{
 
 .main-slider .tp-bannertimer,
 .main-slider .tp-bullets{
-	display:none !important;	
+	display:none !important;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Fancy Box
@@ -1486,7 +1496,7 @@ img{
 .fancybox-next:hover span:before,
 .fancybox-prev:hover span:before{
 	background-color:#ffffff !important;
-	color:#000000;	
+	color:#000000;
 }
 
 .fancybox-type-image .fancybox-close{
@@ -1495,15 +1505,15 @@ img{
 	width:45px;
 	height:45px;
 	background:url(../images/icons/icon-cross.png) center center no-repeat;
-	background-color:rgba(17,17,17,0.50) !important;	
+	background-color:rgba(17,17,17,0.50) !important;
 }
 
 .fancybox-type-image .fancybox-close:hover{
-	background-color:#000000 !important;	
+	background-color:#000000 !important;
 }
 
 .fancybox-type-image .fancybox-skin{
-	padding:0px !important;	
+	padding:0px !important;
 }
 
 /*Appointment Box*/
@@ -1677,7 +1687,7 @@ img{
 	-moz-transition:all 0.5s ease;
 	-webkit-transition:all 0.5s ease;
 	-ms-transition:all 0.5s ease;
-	-o-transition:all 0.5s ease;	
+	-o-transition:all 0.5s ease;
 }
 
 .appointment-form-visible .form-back-drop{
@@ -1691,6 +1701,9 @@ img{
 	position:relative;
 	padding-top:240px;
 	z-index:1;
+	background:url(../images/resource/file-5.jpg)  no-repeat;
+
+
 }
 
 .main-banner:before{
@@ -2113,7 +2126,7 @@ img{
 	margin-bottom:0px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Counter Section
@@ -2316,7 +2329,7 @@ img{
 	letter-spacing:1px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services Section Two
@@ -2531,7 +2544,7 @@ img{
 
 .gallery-item .image-box{
 	position:relative;
-	display:block;	
+	display:block;
 }
 
 .gallery-item .image-box img{
@@ -2619,19 +2632,19 @@ img{
 	-webkit-transition:all 500ms ease, opacity 500ms ease 500ms;
 	-ms-transition:all 500ms ease, opacity 500ms ease 500ms;
 	transition:all 500ms ease, opacity 500ms ease 500ms;
-	opacity:1;	
+	opacity:1;
 }
 
 .gallery-item .overlay-inner .link:nth-child(1){
 	-webkit-transform:translateX(-30px);
 	-ms-transform:translateX(-30px);
-	transform:translateX(-30px);	
+	transform:translateX(-30px);
 }
 
 .gallery-item .overlay-inner .link:nth-child(2){
-	-webkit-transform:translateX(30px);	
-	-ms-transform:translateX(30px);	
-	transform:translateX(30px);	
+	-webkit-transform:translateX(30px);
+	-ms-transform:translateX(30px);
+	transform:translateX(30px);
 }
 
 .gallery-item .inner-box:hover .overlay-inner .link:nth-child(1),
@@ -2681,7 +2694,7 @@ img{
 	display:inline-block;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Testimonial Section
@@ -2846,7 +2859,7 @@ img{
 	line-height:1em;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Management Section
@@ -2915,7 +2928,7 @@ img{
 	line-height:1.9em;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Management Tabs Style
@@ -2981,7 +2994,7 @@ img{
 }
 
 .management-section .management-info-tabs .management-tabs .tabs-content .tab.active-tab{
-	display:block;	
+	display:block;
 }
 
 .management-section .management-info-tabs .management-tabs .tabs-content .tab .content{
@@ -2994,10 +3007,10 @@ img{
 .management-section .management-info-tabs .management-tabs .tabs-content .tab .image img{
 	position:relative;
 	display:block;
-	width:100%;	
+	width:100%;
 }
 
-/*** 
+/***
 
 ====================================================================
 	News Section
@@ -3108,7 +3121,7 @@ img{
 
 .news-section .news-inner-container .news-option .option-inner.active span.icon:before{
 	left:auto;
-	right:2px;	
+	right:2px;
 }
 
 .news-section .floated-text{
@@ -3125,7 +3138,7 @@ img{
 .news-section .floated-text span{
 	line-height: 250px;
     color: rgba(255,255,255,1);
-    text-shadow: -1px -1px 0 #eeeeee,  
+    text-shadow: -1px -1px 0 #eeeeee,
     1px -1px 0 #eeeeee,
    -1px  1px 0 #eeeeee,
     1px  1px 0 #eeeeee;
@@ -3256,7 +3269,7 @@ img{
 
 .news-section .news-inner-container .left-column{
 	position:relative;
-	transition:all 500ms ease;	
+	transition:all 500ms ease;
 }
 
 .news-section .news-inner-container.active-news .recent-news .sidebar-blogs,
@@ -3268,17 +3281,17 @@ img{
 .news-section .news-inner-container.active-news .recent-news .left-column,
 .news-section .news-inner-container .popular-news .left-column{
 	transform:translateX(-30px);
-	opacity:0;	
+	opacity:0;
 }
 
 .news-section .news-inner-container.active-news .popular-news .sidebar-blogs{
 	transform:translateX(0px);
-	opacity:1;	
+	opacity:1;
 }
 
 .news-section .news-inner-container.active-news .popular-news .left-column{
 	transform:translateX(0px);
-	opacity:1;	
+	opacity:1;
 }
 
 .news-block-two{
@@ -3338,7 +3351,7 @@ img{
 	color:#05e249;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Map Info Section
@@ -3426,7 +3439,7 @@ img{
     min-height: 400px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Main Footer
@@ -3623,7 +3636,7 @@ img{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 	padding:10px 50px 10px 30px;
 }
 
@@ -3687,14 +3700,14 @@ img{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
 .main-footer .footer-bottom .footer-nav li a:hover{
 	color:#05e249;
 }
 
-/*** 
+/***
 
 ====================================================================
 	About Section
@@ -3794,7 +3807,7 @@ img{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
 .about-blocks .inner-block .lower-box .read-more:hover,
@@ -3819,10 +3832,10 @@ img{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Clients Section
@@ -3892,7 +3905,7 @@ img{
 	opacity:0.6;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services Section Three
@@ -4144,7 +4157,7 @@ img{
 	background-color:#05e249;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Price Section
@@ -4317,7 +4330,7 @@ img{
 	background:#ffffff url(../images/background/pattern-9.png) repeat;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Team Section
@@ -4573,7 +4586,7 @@ img{
 	font-size:46px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Testimonial Section Two
@@ -4706,7 +4719,7 @@ img{
 	opacity:1;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Faq Section
@@ -4836,7 +4849,7 @@ img{
 	text-align:center;
 	border-radius:50%;
 	font-size:14px;
-	border:1px solid rgba(255,255,255,0.60);	
+	border:1px solid rgba(255,255,255,0.60);
 }
 
 .accordion-box .block .acc-btn.active .icon-outer .icon-plus{
@@ -4860,7 +4873,7 @@ img{
 }
 
 .accordion-box .block .acc-content.current{
-	display:block;	
+	display:block;
 }
 
 .accordion-box .block .content{
@@ -4877,10 +4890,10 @@ img{
 }
 
 .accordion-box .block .content p:last-child{
-	margin-bottom:0px;	
+	margin-bottom:0px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	News Section Two
@@ -4910,7 +4923,7 @@ img{
 .news-section-two .floated-text span{
 	line-height: 250px;
     color: rgba(255,255,255,1);
-    text-shadow: -1px -1px 0 #eeeeee,  
+    text-shadow: -1px -1px 0 #eeeeee,
     1px -1px 0 #eeeeee,
    -1px  1px 0 #eeeeee,
     1px  1px 0 #eeeeee;
@@ -5151,7 +5164,7 @@ img{
     text-shadow: -1px -1px 0 #eeeeee, 1px -1px 0 #eeeeee, -1px 1px 0 #eeeeee, 1px 1px 0 #eeeeee;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Default Form
@@ -5220,7 +5233,7 @@ img{
 	margin-top:15px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Page Title
@@ -5308,7 +5321,7 @@ img{
     text-shadow: 0px 8px rgba(255,255,255,0.05);
 }
 
-/*** 
+/***
 
 ====================================================================
 	About Section Two
@@ -5392,7 +5405,7 @@ img{
 	margin-bottom:25px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Service Section Four
@@ -5562,7 +5575,7 @@ img{
     color: #05e249;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Team Page Section
@@ -5743,7 +5756,7 @@ img{
 	color:#ff4c72;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Projects Section Two
@@ -6071,7 +6084,7 @@ img{
 	text-transform:uppercase;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Related Projects
@@ -6181,7 +6194,7 @@ img{
 	margin-left:-13px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Projects Single Two
@@ -6276,7 +6289,7 @@ img{
 	border-radius:8px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Sidebar Page Container
@@ -6752,7 +6765,7 @@ img{
 
 .sidebar .search-box .form-group{
 	position:relative;
-	margin:0px;	
+	margin:0px;
 }
 
 .sidebar .search-box .form-group input[type="text"],
@@ -6775,7 +6788,7 @@ img{
 }
 
 .sidebar .search-box .form-group input:focus{
-	border-color:#d7d7d7;	
+	border-color:#d7d7d7;
 }
 
 .sidebar .search-box .form-group button{
@@ -6967,7 +6980,7 @@ img{
 
 .sidebar .popular-posts .post a,
 .sidebar .popular-posts .post a:hover{
-	color:#05e249;	
+	color:#05e249;
 }
 
 .sidebar .popular-posts .post-info{
@@ -7531,7 +7544,7 @@ img{
 	border-left:1px solid #cccccc;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Comments Area
@@ -7541,7 +7554,7 @@ img{
 
 .sidebar-page-container .comments-area{
 	position:relative;
-	margin-bottom:50px;	
+	margin-bottom:50px;
 	padding-top:45px;
 }
 
@@ -7570,11 +7583,11 @@ img{
 }
 
 .sidebar-page-container .comments-area .comment-box:nth-child(1){
-	padding-top:0px;	
+	padding-top:0px;
 }
 
 .sidebar-page-container .comments-area .comment-box:hover{
-	border-color:#ff4c72;	
+	border-color:#ff4c72;
 }
 
 .sidebar-page-container .comments-area .comment{
@@ -7606,7 +7619,7 @@ img{
 	margin-bottom:10px;
 	color:#3e5773;
 	line-height:24px;
-	font-size:13px;	
+	font-size:13px;
 }
 
 .sidebar-page-container .comments-area .comment-box strong{
@@ -7619,7 +7632,7 @@ img{
 }
 
 .sidebar-page-container .comments-area .comment-box .text{
-	margin-bottom:20px;	
+	margin-bottom:20px;
 	color:#555555;
 	font-size:14px;
 }
@@ -7652,14 +7665,14 @@ img{
 	margin-bottom:0px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Comments Form
 ====================================================================
 
  ***/
- 
+
 .blog-comment-form{
 	position:relative;
 	top:-2px;
@@ -7705,7 +7718,7 @@ img{
 	display:block;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Comment Form
@@ -7811,7 +7824,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Contact Section
@@ -7870,7 +7883,7 @@ img{
 	padding-left:60px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Contact Form
@@ -7994,14 +8007,14 @@ img{
 	height:560px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Contact Locations Section
 ====================================================================
 
  ***/
- 
+
 .contact-location-section{
 	position:relative;
 	padding:150px 0px 80px;
