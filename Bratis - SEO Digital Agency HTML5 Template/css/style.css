@@ -1698,8 +1698,8 @@ img{
 /*Main Banner*/
 
 .main-banner{
-	position:relative;
-	padding-top:240px;
+	position: fixed;
+	padding-bottom: 0px;
 	z-index:1;
 	background:url(../images/resource/file-5.jpg)  no-repeat;
 
@@ -1830,8 +1830,8 @@ img{
 /*Services Section*/
 
 .services-section{
-	position:relative;
-	margin-top:80px;
+	position:fixed;
+	margin-bottom:0px;
 	background-repeat:no-repeat;
 	background-position:right top;
 }
@@ -1858,7 +1858,7 @@ img{
 .services-section .title-box .title-column .inner-column .big-letter{
 	position:absolute;
 	left:-80px;
-	top:-120px;
+	top:-10px;
 	font-weight:700;
 	font-size:400px;
 	line-height:1em;
@@ -8065,3 +8065,4 @@ img{
 	font-weight:600;
 	color:#222222;
 }
+
