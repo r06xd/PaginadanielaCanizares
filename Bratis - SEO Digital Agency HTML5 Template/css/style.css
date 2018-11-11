@@ -3783,6 +3783,7 @@ img{
 .about-blocks .inner-block .image img{
 	position:relative;
 	width:100%;
+
 	display:block;
 }
 
@@ -5244,7 +5245,7 @@ img{
 .page-title{
 	position:relative;
 	background-size:cover;
-	padding:240px 0px 180px;
+	padding:240px 60px 180px;
 	background-repeat:no-repeat;
 	background-position:center top;
 	border-bottom:1px solid #e0e0e0;
@@ -5278,7 +5279,7 @@ img{
 	bottom:0px;
 	width:42px;
 	height:2px;
-	background-color:#ff4c72;
+	background-color:#ffffff;
 }
 
 .page-title .text{
