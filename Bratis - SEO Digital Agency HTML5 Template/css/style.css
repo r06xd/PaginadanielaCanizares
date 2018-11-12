@@ -83,7 +83,7 @@ body {
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position:center top;
-		background:url(../images/resource/file-5.jpg)  no-repeat;
+	
 
 
 
@@ -136,9 +136,9 @@ p,.text{
 
 .auto-container{
 	position:static;
-	max-width:1200px;
-	padding:0px 10px;
-	margin:0 auto;
+	max-width:1380px;
+	padding:0px 0px 0px 0px;
+	margin:0 0px;
 }
 
 .page-wrapper{
@@ -482,6 +482,7 @@ img{
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
+	background:#ffffff;
 }
 
 .main-header.fixed-header{
@@ -5245,10 +5246,12 @@ img{
 .page-title{
 	position:relative;
 	background-size:cover;
-	padding:240px 60px 180px;
+	padding:40% 60px 180px;
 	background-repeat:no-repeat;
-	background-position:center top;
+	background-position:center;
 	border-bottom:1px solid #e0e0e0;
+	background-image: url(../images/background/1.jpg);
+	
 }
 
 .page-title:before{
@@ -5324,9 +5327,12 @@ img{
 
 .about-section-two{
 	position:relative;
-	padding:140px 0px 70px;
+	display: flex;
+	padding-left: 18%;
+	padding-right: 18%;
 	background-repeat:no-repeat;
 	background-position:right top;
+	border-collapse: collapse;
 }
 
 .about-section-two .right-pattern{
@@ -5388,6 +5394,9 @@ img{
 .about-section-two .title-column .graph-image{
 	position:relative;
 	margin-top:18px;
+	visibility: hidden;
+  	opacity: 0;
+  	-webkit-transition: visibility 0s, opacity 0.5s linear;
 }
 
 .about-section-two .blocks-column{
@@ -5439,6 +5448,7 @@ img{
 	position:relative;
 	width:100%;
 	display:block;
+	
 }
 
 .services-block-two .inner-box .image .overlay-box{
@@ -6088,7 +6098,7 @@ img{
 .related-projects{
 	position:relative;
 	padding:160px 0px 100px;
-	background-color:#ff4c72;
+	background-color:#ffffff;
 	background-position:center center;
 	background-repeat:no-repeat;
 }
@@ -6099,7 +6109,7 @@ img{
 }
 
 .related-projects.style-two .title-box h2{
-	color:#333333;
+	color:#000000;
 }
 
 .related-projects.style-two .title-box h2:after{
@@ -6119,7 +6129,7 @@ img{
 
 .related-projects .title-box h2{
 	position:relative;
-	color:#ffffff;
+	color:#000000;
 	font-size:35px;
 	font-weight:600;
 	display:inline-block;
@@ -6134,7 +6144,7 @@ img{
 	width:42px;
 	height:3px;
 	margin-left:-21px;
-	background-color:#ffffff;
+	background-color:#000000;
 }
 
 /*New Posts*/
