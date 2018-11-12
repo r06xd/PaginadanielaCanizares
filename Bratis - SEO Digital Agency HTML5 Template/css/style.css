@@ -83,7 +83,7 @@ body {
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position:center top;
-	
+
 
 
 
@@ -5251,7 +5251,7 @@ img{
 	background-position:center;
 	border-bottom:1px solid #e0e0e0;
 	background-image: url(../images/background/1.jpg);
-	
+
 }
 
 .page-title:before{
@@ -5414,6 +5414,20 @@ img{
 ====================================================================
 
  ***/
+ .servicetable img{
+	 position:relative;
+	 background-size:cover;
+	 padding:10% 240px 240px;
+	 background-repeat:no-repeat;
+	 background-position:center;
+	 border-bottom:1px solid #e0e0e0;
+
+	 }
+	 .servicetable table{
+width: 100%
+height:50%
+
+	 }
 
 .services-section-four{
 	position:relative;
@@ -5448,7 +5462,7 @@ img{
 	position:relative;
 	width:100%;
 	display:block;
-	
+
 }
 
 .services-block-two .inner-box .image .overlay-box{
@@ -8076,4 +8090,3 @@ img{
 	font-weight:600;
 	color:#222222;
 }
-
